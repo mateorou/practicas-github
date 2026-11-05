@@ -1,6 +1,3 @@
-#enunciado
-#el usuario introduce dos valores y se manipulan haciendo 7 operaciones
-
 variable1=int(input("Introduce el primer número: "))
 variable2=int(input("Introduce el segundo número: "))
 
