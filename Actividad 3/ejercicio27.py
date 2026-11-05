@@ -1,12 +1,9 @@
 # 27. Mejora el programa anterior para controlar que el valor introducido es una letra y en caso de introducir un número, aparezca un aviso por pantalla.
-letra = input("Introduce una letra: ")
-if letra.isalpha():
-    if letra.isupper():
-        print(f"La letra es mayúscula.")
+respuesta=input("Introduce una letra: ")
+if respuesta.isnumeric()==False:
+    if respuesta.isupper():
+        print("Es mayúscula")
     else:
-        print(f"La letra es minúscula.")
+        print("Es minúscula")
 else:
-    if letra.isdigit():
-        print(f"El valor introducido es un número.")
-    else:
-        print(f"La letra es mayúscula ¿?")
+    print("El valor introducido no es una letra")
